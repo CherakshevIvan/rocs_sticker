@@ -1,0 +1,187 @@
+div {
+    /*border: 0.1px solid red */
+}
+
+.part-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.part-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.border_0 {
+    width: 200mm;
+    height: 75mm;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+}
+
+.logo-rocs {
+    background-image: url("./images/Logo_ROCS.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*.flex-column {
+    width: 636px;
+    height: 557px;
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.column_1 {
+    width: 20mm;
+    height: 100%;
+}
+
+.column_2 {
+    width: 80mm;
+    height: 73mm;
+    border: 0px solid red;
+    font-family: "FuturaFuturisC";
+    ;
+}
+
+.column2_rows {
+    width: 80mm;
+    height: 15mm;
+    margin-top: 0mm;
+}
+
+.column2_row_1 {
+    border-bottom: 0.8px solid black;
+}
+
+.column2_row_2 {
+    margin-top: 1px;
+    font-size: 13pt;
+}
+
+.column2_row_3 {
+    height: 13mm;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-2_3_1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-2_3_1_1 {
+    width: 100%;
+    height: 50%;
+}
+
+.flex-column-2_3_1_2 {
+    width: 96%;
+    height: 50%;
+    border: 0.1px solid black;
+}
+
+.flex-column-2_3_2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 5pt;
+}
+
+.flex-column-2_3_2_1 {
+    width: 100%;
+    height: 50%;
+    font-size: 5pt;
+    margin-left: 1%;
+}
+
+.flex-column-2_3_2_2 {
+    width: 100%;
+    height: 50%;
+    font-size: 12pt;
+    margin-left: 1%;
+}
+
+.column2_row_4 {
+    height: 13mm;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-2_4_1 {
+    width: 50%;
+    height: 100%;
+    font-size: 5pt;
+    align-items: center;
+}
+
+.flex-column-2_4_2 {
+    width: 50%;
+    height: 100%;
+    font-size: 5pt;
+}
+
+.column2_row_5 {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-2_5_1 {
+    width: 80%;
+    height: 100%;
+}
+
+.flex-column-2_5_2 {
+    background-image: url("./images/Logo_recicle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 100%;
+}
+
+.description {
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13pt;
+    line-height: 12pt;
+}
+
+.barcode {
+    background-image: url("./barcodes/03-01-043-TUR.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@font-face {
+    font-family: "FuturaFuturisC";
+    src: url(./Fonts/FuturaFuturisC.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FuturaFuturisC-Bold";
+    src: url(./Fonts/FuturaFuturisC-Bold.otf);
+    font-style: normal;
+    font-weight: normal;
+}
