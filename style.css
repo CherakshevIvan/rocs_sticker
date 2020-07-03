@@ -26,8 +26,15 @@ div {
     /*justify-content: space-between;*/
 }
 
-.logo-rocs {
+.logo-rocs-old {
     background-image: url("./images/Logo_ROCS.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-rocs {
+    /* background-image: url("./images/Logo_ROCS.PNG");*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +58,6 @@ div {
     height: 73mm;
     border: 0px solid red;
     font-family: "FuturaFuturisC";
-    ;
 }
 
 .column2_rows {
@@ -140,20 +146,36 @@ div {
     margin-top: 1px;
     display: flex;
     flex-direction: row;
+    outline: 1px solid black;
 }
 
 .flex-column-2_5_1 {
     width: 80%;
     height: 100%;
+    outline: 1px solid black;
+    /*чисто для визуального контроля при верстке*/
 }
 
-.flex-column-2_5_2 {
+.flex-column-2_5_2-old {
     background-image: url("./images/Logo_recicle.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 20%;
     height: 100%;
+}
+
+.flex-column-2_5_2 {
+    width: 20%;
+    height: 100%;
+    outline: 1px solid black;
+    /*чисто для визуального контроля при верстке*/
+}
+
+.recicle-logo {
+    max-width: 100%;
+    max-height: 70%;
+    margin: auto;
 }
 
 .description {
@@ -165,23 +187,31 @@ div {
     line-height: 12pt;
 }
 
-.barcode {
+.barcode-old {
     background-image: url("./barcodes/03-01-043-TUR.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+}
+
+.barcode {
+    max-width: 70%;
+    max-height: 70%;
+    height: 70%;
+    margin: auto;
 }
 
 @font-face {
     font-family: "FuturaFuturisC";
-    src: url(./Fonts/FuturaFuturisC.otf);
+    /*src: url(./fonts/FuturaFuturisC.otf);*/
+    src: url("http://maxburkin.ru/dev_fonts/FuturaFuturisC.otf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "FuturaFuturisC-Bold";
-    src: url(./Fonts/FuturaFuturisC-Bold.otf);
+    /*src: url(./fonts/FuturaFuturisC-Bold.otf);*/
+    src: url("http://maxburkin.ru/dev_fonts/FuturaFuturisC-Bold.otf");
     font-style: normal;
     font-weight: normal;
 }
